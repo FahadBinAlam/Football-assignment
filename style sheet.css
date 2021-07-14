@@ -1,0 +1,101 @@
+.top-banner{
+    background-color:#0733e0;
+    margin:4px;
+    display:flex;
+    justify-content:center;
+}
+.banner-slogan{
+    font-size:3em;
+}
+.half-width img{
+    height:550px;
+    width:600px;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: maroon;
+    font-size: 20px;
+    font-weight: 700;
+}
+.fas{
+padding-left: 60px;
+}
+
+h2{
+    font-size:50px;
+    justify-content: center;
+}
+.first-trio{
+    width:100%;
+    display:flex;
+    justify-content: center;
+    padding:20px 40px;
+
+}
+.second-trio{
+    width:100%;
+    display:flex;
+    justify-content: center;
+    padding:20px 40px;
+}
+.third-trio{
+    width:100%;
+    display:flex;
+    justify-content: center;
+    padding:20px 40px;
+}
+p{
+    font-size:1.5em;
+}
+.first-trio img{
+    height:400px;
+    width:300px;
+}
+.second-trio img{
+    height:400px;
+    width:300px;
+}
+.third-trio img{
+    height:400px;
+    width:300px;
+}
+.player{
+    background-color: #cdced1;
+    width:600px;
+    margin:4px;
+    border-radius: 5px;
+    padding:5px;
+}
+.players-bio{
+    width:300px;
+    margin:4px;
+    padding:5px;
+}
+.last-part img{
+    height:40px;
+    width:100px;
+    display:block;
+
+}
+.far{
+    font-size: 15px;
+    margin-left: 4px;
+}
+@media (max-width:700px) {
+    .top-banner{
+        flex-direction: column;
+    }
+    .first-trio{
+        flex-direction: column;
+    }
+    .second-trio{
+        flex-direction: column;
+    }
+    .third-trio{
+        flex-direction: column;
+    }
+    
+}
